@@ -32,7 +32,7 @@ import (
 	reflect "reflect"
 	strings "strings"
 
-	k8s_io_apimachinery_pkg_types "k8s.io/apimachinery/pkg/types"
+	k8s_io_apimachinery_pkg_types "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

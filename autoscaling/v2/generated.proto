@@ -22,10 +22,10 @@ syntax = "proto2";
 package k8s.io.api.autoscaling.v2;
 
 import "github.com/spotmaxtech/k8s-api-v0260/core/v1/generated.proto";
-import "k8s.io/apimachinery/pkg/api/resource/generated.proto";
-import "k8s.io/apimachinery/pkg/apis/meta/v1/generated.proto";
-import "k8s.io/apimachinery/pkg/runtime/generated.proto";
-import "k8s.io/apimachinery/pkg/runtime/schema/generated.proto";
+import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource/generated.proto";
+import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1/generated.proto";
+import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/generated.proto";
+import "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema/generated.proto";
 
 // Package-wide variables from generator "generated".
 option go_package = "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v2";

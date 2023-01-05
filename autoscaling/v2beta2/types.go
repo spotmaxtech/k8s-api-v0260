@@ -20,8 +20,8 @@ package v2beta2
 
 import (
 	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
-	"k8s.io/apimachinery/pkg/api/resource"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 )
 
 // +genclient

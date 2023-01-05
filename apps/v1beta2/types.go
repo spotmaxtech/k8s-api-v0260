@@ -18,9 +18,9 @@ package v1beta2
 
 import (
 	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	runtime "k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/intstr"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	runtime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/intstr"
 )
 
 const (

@@ -27,14 +27,14 @@ import (
 	proto "github.com/gogo/protobuf/proto"
 	k8s_io_api_core_v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
 	v11 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 
 	math "math"
 	math_bits "math/bits"
 	reflect "reflect"
 	strings "strings"
 
-	intstr "k8s.io/apimachinery/pkg/util/intstr"
+	intstr "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/intstr"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

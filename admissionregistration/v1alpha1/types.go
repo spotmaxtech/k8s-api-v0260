@@ -18,7 +18,7 @@ package v1alpha1
 
 import (
 	v1 "github.com/spotmaxtech/k8s-api-v0260/admissionregistration/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 )
 
 // Rule is a tuple of APIGroups, APIVersion, and Resources.It is recommended

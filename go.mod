@@ -6,8 +6,8 @@ go 1.19
 
 require (
 	github.com/gogo/protobuf v1.3.2
+	github.com/spotmaxtech/k8s-apimachinery-v0260 v0.0.1
 	github.com/stretchr/testify v1.8.0
-	k8s.io/apimachinery v0.26.0
 )
 
 require (
@@ -33,5 +33,3 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
-
-replace k8s.io/apimachinery => k8s.io/apimachinery v0.26.0

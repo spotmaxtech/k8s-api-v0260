@@ -26,16 +26,16 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_sortkeys "github.com/gogo/protobuf/sortkeys"
-	resource "k8s.io/apimachinery/pkg/api/resource"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	runtime "k8s.io/apimachinery/pkg/runtime"
+	resource "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	runtime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
 
 	math "math"
 	math_bits "math/bits"
 	reflect "reflect"
 	strings "strings"
 
-	k8s_io_apimachinery_pkg_types "k8s.io/apimachinery/pkg/types"
+	k8s_io_apimachinery_pkg_types "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

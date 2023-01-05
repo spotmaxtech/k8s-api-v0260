@@ -27,8 +27,8 @@ import (
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_sortkeys "github.com/gogo/protobuf/sortkeys"
 	v11 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
-	resource "k8s.io/apimachinery/pkg/api/resource"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	resource "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 
 	math "math"
 	math_bits "math/bits"

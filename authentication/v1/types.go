@@ -19,8 +19,8 @@ package v1
 import (
 	"fmt"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/types"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
 )
 
 const (

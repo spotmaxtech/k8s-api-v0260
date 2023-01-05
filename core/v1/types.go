@@ -17,10 +17,10 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/apimachinery/pkg/api/resource"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/util/intstr"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/intstr"
 )
 
 const (

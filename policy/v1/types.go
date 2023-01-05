@@ -17,8 +17,8 @@ limitations under the License.
 package v1
 
 import (
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/intstr"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/intstr"
 )
 
 // DisruptionBudgetCause is the status cause returned for eviction failures caused by PodDisruptionBudget violations.
