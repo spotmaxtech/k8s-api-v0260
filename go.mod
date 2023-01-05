@@ -1,6 +1,6 @@
 // This is a generated file. Do not edit directly.
 
-module k8s.io/api
+module github.com/spotmaxtech/k8s-api-v0260
 
 go 1.19
 

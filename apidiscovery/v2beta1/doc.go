@@ -21,4 +21,4 @@ limitations under the License.
 
 // +groupName=apidiscovery.k8s.io
 
-package v2beta1 // import "k8s.io/api/apidiscovery/v2beta1"
+package v2beta1 // import "github.com/spotmaxtech/k8s-api-v0260/apidiscovery/v2beta1"

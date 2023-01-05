@@ -20,4 +20,4 @@ limitations under the License.
 // +k8s:prerelease-lifecycle-gen=true
 // +groupName=networking.k8s.io
 
-package v1beta1 // import "k8s.io/api/networking/v1beta1"
+package v1beta1 // import "github.com/spotmaxtech/k8s-api-v0260/networking/v1beta1"

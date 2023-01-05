@@ -19,4 +19,4 @@ limitations under the License.
 // +k8s:openapi-gen=true
 // +k8s:prerelease-lifecycle-gen=true
 
-package v1beta1 // import "k8s.io/api/apps/v1beta1"
+package v1beta1 // import "github.com/spotmaxtech/k8s-api-v0260/apps/v1beta1"

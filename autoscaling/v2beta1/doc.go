@@ -19,4 +19,4 @@ limitations under the License.
 // +k8s:openapi-gen=true
 // +k8s:prerelease-lifecycle-gen=true
 
-package v2beta1 // import "k8s.io/api/autoscaling/v2beta1"
+package v2beta1 // import "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v2beta1"

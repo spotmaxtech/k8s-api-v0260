@@ -21,4 +21,4 @@ limitations under the License.
 
 // +groupName=coordination.k8s.io
 
-package v1beta1 // import "k8s.io/api/coordination/v1beta1"
+package v1beta1 // import "github.com/spotmaxtech/k8s-api-v0260/coordination/v1beta1"

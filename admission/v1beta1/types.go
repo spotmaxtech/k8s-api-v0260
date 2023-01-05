@@ -17,7 +17,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	authenticationv1 "k8s.io/api/authentication/v1"
+	authenticationv1 "github.com/spotmaxtech/k8s-api-v0260/authentication/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"

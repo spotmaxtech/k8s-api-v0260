@@ -18,4 +18,4 @@ limitations under the License.
 // +k8s:protobuf-gen=package
 // +k8s:openapi-gen=true
 
-package v1 // import "k8s.io/api/autoscaling/v1"
+package v1 // import "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v1"

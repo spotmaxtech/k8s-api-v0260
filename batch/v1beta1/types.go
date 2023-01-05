@@ -17,8 +17,8 @@ limitations under the License.
 package v1beta1
 
 import (
-	batchv1 "k8s.io/api/batch/v1"
-	v1 "k8s.io/api/core/v1"
+	batchv1 "github.com/spotmaxtech/k8s-api-v0260/batch/v1"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

@@ -20,4 +20,4 @@ limitations under the License.
 
 // +groupName=node.k8s.io
 
-package v1 // import "k8s.io/api/node/v1"
+package v1 // import "github.com/spotmaxtech/k8s-api-v0260/node/v1"

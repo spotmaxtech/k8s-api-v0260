@@ -21,13 +21,13 @@ syntax = "proto2";
 
 package k8s.io.api.admissionregistration.v1alpha1;
 
-import "k8s.io/api/admissionregistration/v1/generated.proto";
+import "github.com/spotmaxtech/k8s-api-v0260/admissionregistration/v1/generated.proto";
 import "k8s.io/apimachinery/pkg/apis/meta/v1/generated.proto";
 import "k8s.io/apimachinery/pkg/runtime/generated.proto";
 import "k8s.io/apimachinery/pkg/runtime/schema/generated.proto";
 
 // Package-wide variables from generator "generated".
-option go_package = "k8s.io/api/admissionregistration/v1alpha1";
+option go_package = "github.com/spotmaxtech/k8s-api-v0260/admissionregistration/v1alpha1";
 
 // MatchResources decides whether to run the admission control policy on an object based
 // on whether it meets the match criteria.
